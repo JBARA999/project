@@ -22,3 +22,8 @@ class Style:
 
         self.box_image = PhotoImage(file='images//box.png')
         self.box_logo = Label(self.master , image=self.box_image ).place(x=120,y=640)
+        
+        
+        
+        
+        
