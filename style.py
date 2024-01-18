@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import messagebox
 from PIL import Image,ImageTk
-
+import requests
 class Style:
     def __init__(self,master):
         self.master = master
