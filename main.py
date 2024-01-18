@@ -4,17 +4,15 @@ import requests
 from datetime import datetime
 import time
 from style import Style
-from tkinter import messagebox
-import requests
-
 
 class Main:
     def __init__(self,root):
 
+
+
         self.root = root
-        self.url='https://api.openweathermap.org/data/2.5/weather?q={}&appid={}'
-        self.API='06051f3cad0ad7ba821ba795bf6d124f'
         self.object_style = Style(self.root)
+
         
         self.variable_city=StringVar()
         
@@ -32,8 +30,10 @@ class Main:
         
         
         
-        if __name__ == "__main__": 
-          app = Tk()
-          main_class=Main(app)
-          app.mainloop()
+        
+
+if __name__ == "__main__": 
+  app = Tk()
+  main_class=Main(app)
+  app.mainloop()
 
