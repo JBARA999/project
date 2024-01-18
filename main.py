@@ -25,7 +25,7 @@ class Main:
         self.button = Button(
             self.root , image=self.image_get , background='#404040' , borderwidth=0 , command=self.get_data).place(x=620,y=52)
         
-        
+        self.add_time()
         
     def get_data(self):
         
@@ -73,7 +73,12 @@ class Main:
         self.label_humidity = Label(self.root , text=f"{self.final_result[8]}",font=('poppins',16),fg='black').place(x=550,y=305)
         
         
-        
+    def add_time(self):
+        time = datetime.now()
+        string_time = time.strftime('%H:%M:%S %p')
+        label_time = Label(self.root, text=f"{string_time}", fg='#000000', font=('poppins', 25)).place(
+            x=150, y=200)
+        self.root.after(1000, self.add_time)    
         
             
 
