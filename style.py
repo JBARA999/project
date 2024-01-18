@@ -30,6 +30,8 @@ class Style:
         self.box_logo = Label(self.master , image=self.box_image ).place(x=120,y=640)
 
         self.add_titles()
+        
+        
 def add_titles(self):
         self.location = Label(self.master , text='location' , bg='#1ab5ef' , font=('popins',12,'bold'),foreground='white').place(x=180,y=660)    
         self.temperature = Label(self.master , text='temperature' , bg='#1ab5ef' , font=('popins',12,'bold'),foreground='white').place(x=320,y=660)
@@ -38,6 +40,20 @@ def add_titles(self):
         self.description = Label(self.master , text='description' , bg='#1ab5ef' , font=('popins',12,'bold'),foreground='white').place(x=760,y=660)
         
 
+
+
+        self.lbl1 = Label(self.master, text='....', bg='#1ab5ef', font=('popins', 16, 'bold'), foreground='#000000')
+        self.lbl1.place(x=190, y=690)
+        self.lbl2 = Label(self.master, text='....', bg='#1ab5ef', font=('popins', 16, 'bold'), foreground='#000000')
+        self.lbl2.place(x=350,y=690)
+        self.lbl3 = Label(self.master, text='....', bg='#1ab5ef', font=('popins', 16, 'bold'), foreground='#000000')
+        self.lbl3.place(x=520,y=690)
+        self.lbl4 = Label(self.master, text='....', bg='#1ab5ef', font=('popins', 16, 'bold'), foreground='#000000')
+        self.lbl4.place(x=650,y=690)
+        self.lbl5 = Label(self.master, text='....', bg='#1ab5ef', font=('popins', 16, 'bold'), foreground='#000000')
+        self.lbl5.place(x=780,y=690)
+        self.lbl6 = Label(self.master, text='....', bg='#f0f7fa', font=('popins', 16, 'bold'), foreground='#000000')
+        self.lbl6.place(x=575,y=300)
 
         
 
