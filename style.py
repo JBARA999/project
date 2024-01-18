@@ -9,3 +9,9 @@ class Style:
         self.master.title("meteo project")
         self.master.resizable(width=False , height=False)
         self.master.iconbitmap('images//weather.ico')
+        
+        
+        
+        self.image_city = PhotoImage(file='images//search.png')
+        self.label_city = Label(self.master , image=self.image_city )
+        self.label_city.place(x=250,y=40)
