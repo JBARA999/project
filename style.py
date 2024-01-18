@@ -38,10 +38,7 @@ def add_titles(self):
         self.description = Label(self.master , text='description' , bg='#1ab5ef' , font=('popins',12,'bold'),foreground='white').place(x=760,y=660)
         
 
-        
-        
-        
-        
+
         
 
 
