@@ -1,10 +1,11 @@
 from tkinter import *
 from tkinter import messagebox
 from PIL import Image,ImageTk
-import requests
+
 class Style:
     def __init__(self,master):
         self.master = master
+
         self.master.geometry("1000x800+400+100")
         self.master.title("meteo project")
         self.master.resizable(width=False , height=False)
@@ -27,3 +28,5 @@ class Style:
         
         
         
+        
+
